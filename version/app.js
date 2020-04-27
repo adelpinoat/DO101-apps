@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 33333 of the app. para Webhook' + '\n';
+    response = 'This is version 3 of the app. para Webhook' + '\n';
 
     //send the response to the client
     res.send(response);
